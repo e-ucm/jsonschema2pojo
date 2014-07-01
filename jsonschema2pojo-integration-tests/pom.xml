@@ -3,9 +3,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>jsonschema2pojo</artifactId>
-        <groupId>org.jsonschema2pojo</groupId>
-        <version>0.4.5-SNAPSHOT</version>
+        <artifactId>org.jsonschema2pojo.jsonschema2pojo</artifactId>
+        <groupId>es.e-ucm</groupId>
+        <version>0.4.4-SNAPSHOT</version>
     </parent>
 
     <artifactId>jsonschema2pojo-integration-tests</artifactId>
@@ -97,13 +97,13 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.jsonschema2pojo</groupId>
+            <groupId>es.e-ucm</groupId>
             <artifactId>jsonschema2pojo-maven-plugin</artifactId>
             <version>${project.version}</version>
             <type>maven-plugin</type>
         </dependency>
         <dependency>
-            <groupId>org.jsonschema2pojo</groupId>
+            <groupId>es.e-ucm</groupId>
             <artifactId>jsonschema2pojo-ant</artifactId>
             <version>${project.version}</version>
         </dependency>
